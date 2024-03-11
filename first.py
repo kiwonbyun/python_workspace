@@ -15,5 +15,5 @@ def 원뿔부피(r,h):
 def 원뿔겉넓이(r,h):
     return (math.pi * r) * (r + h)
 
-print("원뿔의 부피는:",원뿔부피(rad, height))
-print("원뿔의 겉넓이는:",원뿔겉넓이(rad, height))
+print("원뿔의 부피는:",원뿔부피(rad, height), sep="")
+print("원뿔의 겉넓이는:",원뿔겉넓이(rad, height), sep="")
