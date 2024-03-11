@@ -6,8 +6,9 @@ print('  ***')
 print(' *****')
 print('*******')
 
-rad = float(input("반지름의 값을 입력하세요:"))
-height = float(input('원뿔의 높이를 입력하세요:'))
+# 인풋으로 받은 데이터는 문자열로 입력된다.
+rad = int(input("반지름의 값을 입력하세요:"))
+height = int(input('원뿔의 높이를 입력하세요:'))
 
 def 원뿔부피(r,h):
     return 1/3 * math.pi * r**2 * h
